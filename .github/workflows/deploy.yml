@@ -1,4 +1,4 @@
-name: Deploy Vite site to GitHub Pages
+name: Deploy Next.js site to GitHub Pages
 
 on:
   push:
@@ -17,9 +17,14 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      NEXT_TELEMETRY_DISABLED: "1"
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
 
       - name: Use Node
         uses: actions/setup-node@v4
@@ -33,14 +38,13 @@ jobs:
       - name: Build
         run: npm run build
 
-      # Optional: SPA fallback so reloading deep routes works on Pages
-      - name: SPA fallback
-        run: cp dist/index.html dist/404.html
+      - name: Export Next.js app
+        run: npx next export
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: dist
+          path: out
 
   deploy:
     needs: build
