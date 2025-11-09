@@ -32,7 +32,7 @@ export function Experience() {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-4">Experience</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            3+ years of experience building automation tools and internal systems at scale.
+            2+ years of experience building automation tools and internal systems at scale.
           </p>
         </div>
 

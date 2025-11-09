@@ -137,9 +137,12 @@ export function Hero() {
               size="lg"
               variant="outline"
               className="rounded-2xl px-8 border-cyan-400/30 hover:border-cyan-400 hover:bg-cyan-400/10 bg-transparent"
+              asChild
             >
-              <FileText className="mr-2 h-4 w-4" />
-              Resume
+              <a href="/Hakim_Alkafah_resume.pdf" download>
+                <FileText className="mr-2 h-4 w-4" />
+                Resume
+              </a>
             </Button>
           </div>
 

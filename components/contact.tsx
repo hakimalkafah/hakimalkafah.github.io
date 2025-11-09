@@ -131,10 +131,10 @@ export function Contact() {
                 <div>
                   <h3 className="font-semibold mb-1">Email</h3>
                   <a
-                    href="mailto:hakim@example.com"
+                    href="mailto:hakimalkafah@gmail.com"
                     className="text-sm text-muted-foreground hover:text-cyan-400 transition-colors"
                   >
-                    hakim@example.com
+                    hakimalkafah@gmail.com
                   </a>
                 </div>
               </div>
@@ -148,7 +148,7 @@ export function Contact() {
                 <div>
                   <h3 className="font-semibold mb-1">GitHub</h3>
                   <a
-                    href="https://github.com"
+                    href="https://github.com/hakimalkafah"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-sm text-muted-foreground hover:text-cyan-400 transition-colors"
@@ -167,7 +167,7 @@ export function Contact() {
                 <div>
                   <h3 className="font-semibold mb-1">LinkedIn</h3>
                   <a
-                    href="https://linkedin.com"
+                    href="https://linkedin.com/in/hakim-alkafah/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-sm text-muted-foreground hover:text-cyan-400 transition-colors"
