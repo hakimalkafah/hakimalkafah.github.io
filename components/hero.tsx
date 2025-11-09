@@ -2,7 +2,7 @@
 
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
-import { Github, Linkedin, Mail, FileText } from "lucide-react"
+import { Linkedin, Mail, FileText } from "lucide-react"
 import { useEffect, useRef } from "react"
 
 export function Hero() {
@@ -96,19 +96,18 @@ export function Hero() {
       {/* Content */}
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center space-y-8">
-          {/* Stat Chips */}
           <div className="flex flex-wrap items-center justify-center gap-3 mb-6">
             <Badge
               variant="secondary"
               className="px-4 py-2 text-xs bg-card/50 backdrop-blur-sm border border-cyan-400/20"
             >
-              1,100+ engineer hours saved
+              1,100+ engineer hours saved annually
             </Badge>
             <Badge
               variant="secondary"
               className="px-4 py-2 text-xs bg-card/50 backdrop-blur-sm border border-cyan-400/20"
             >
-              200+ internal users
+              50% faster deployments
             </Badge>
           </div>
 
@@ -120,10 +119,9 @@ export function Hero() {
             Software Engineer · Automation Developer
           </p>
 
-          {/* Bio */}
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Building intelligent workflow automation, AI-powered tools, and scalable backend systems that deliver
-            measurable impact.
+            I automate workflows, build internal tools, and ship full-stack applications. Experienced with Python/Flask,
+            React, GCP Cloud Run, and GitHub Actions CI/CD.
           </p>
 
           {/* CTAs */}
@@ -145,7 +143,6 @@ export function Hero() {
             </Button>
           </div>
 
-          {/* Social Links */}
           <div className="flex items-center justify-center gap-4 pt-6">
             <Button
               size="icon"
@@ -153,17 +150,12 @@ export function Hero() {
               className="rounded-full hover:bg-cyan-400/10 hover:text-cyan-400"
               asChild
             >
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                <Github className="h-5 w-5" />
-              </a>
-            </Button>
-            <Button
-              size="icon"
-              variant="ghost"
-              className="rounded-full hover:bg-cyan-400/10 hover:text-cyan-400"
-              asChild
-            >
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <a
+                href="https://linkedin.com/in/hakim-alkafah"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
+              >
                 <Linkedin className="h-5 w-5" />
               </a>
             </Button>
@@ -173,7 +165,7 @@ export function Hero() {
               className="rounded-full hover:bg-cyan-400/10 hover:text-cyan-400"
               asChild
             >
-              <a href="mailto:hakim@example.com" aria-label="Email">
+              <a href="mailto:hakimalkafah@gmail.com" aria-label="Email">
                 <Mail className="h-5 w-5" />
               </a>
             </Button>
