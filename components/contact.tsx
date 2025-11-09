@@ -172,7 +172,7 @@ export function Contact() {
                     rel="noopener noreferrer"
                     className="text-sm text-muted-foreground hover:text-cyan-400 transition-colors"
                   >
-                    linkedin.com/in/hakimalkafah
+                    linkedin.com/in/hakim-alkafah
                   </a>
                 </div>
               </div>
