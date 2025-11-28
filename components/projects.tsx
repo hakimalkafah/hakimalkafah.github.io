@@ -24,10 +24,10 @@ const projects = [
       "Built a task-orchestration system with JWT authentication and rules-based auto-assignment to streamline store operations, packaged with Docker Compose for deployment.",
       "Designed PostgreSQL schema with task dependencies and scheduling logic, exposing RESTful endpoints for task creation, assignment, and status tracking.",
     ],
-    tech: ["React", "Flask", "PostgreSQL", "Docker"],
+    tech: ["React", "Django", "PostgreSQL", "Docker", "Supabase", "Vercel"],
     year: "2024 – Present",
-    status: "In Progress",
-    demo: "#",
+    status: "Live",
+    demo: "https://task-manager-frontend-mu-lime.vercel.app",
   },
 ]
 
